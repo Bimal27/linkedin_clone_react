@@ -1,0 +1,99 @@
+#topNavbar {
+    background-color: #FFFFFF;
+   
+    position: relative;
+    width: 100vw;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 99;
+}
+
+.navbar {
+    height: 6vh;
+}
+
+
+#topNavbar .navbar-brand img {
+    width: 38px;
+}
+
+#topNavbar form {
+    align-items: center;
+    display: flex;
+    width: 300px;
+    background-color: #EEF3F8;
+    border-radius: 4px;
+    height: 37px;
+    flex-wrap: nowrap;
+}
+
+
+
+#topNavbar form svg {
+   width: 20px;
+   height: 20px;
+   font-weight: 700;
+   margin-left: 15px;
+}
+
+#topNavbar form input {
+    border: none;
+    font-size: 0.8em;
+    background-color: #EEF3F8;
+}
+
+#topNavbar .form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+#topNavbar #navbarScroll img {
+    width: 25px;
+    border-radius: 50%;
+}
+
+#topNavbar #navbarScroll svg {
+    width: 25px;
+    height: 25px;
+    color: rgba(51, 49, 49, 0.829);
+}
+
+#topNavbar #navbarScroll .nav-link {
+   font-size: 0.8em;
+   color: rgb(80, 78, 78);
+   padding: 5px 0px 0px 0px;
+   
+}
+#topNavbar #navbarScroll .menuItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+}
+#topNavbar #navbarScroll .menuItems:last-child {
+
+    width: 120px;
+}
+
+#topNavbar #navbarScroll h5 {
+    word-spacing: 3px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(156, 133, 3);
+    line-height: 20px;
+    margin: 0px;
+}
+
+#topNavbar .line {
+    border-right: solid 1px silver;
+    width: 1px;
+    margin: 0px;
+    padding: 0px;
+}
+
+

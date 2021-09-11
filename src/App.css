@@ -1,0 +1,171 @@
+
+#root{
+  
+  background-color: #e7e7e7;
+}
+
+
+/* #root {
+  background-color: #F3F2EF;
+ 
+
+} */
+
+
+#sidebaroptionalmenu {
+  padding: 5px 15px 5px 15px;
+  margin: 0%;
+  background-color: white;
+  width: 100%;
+  border-radius: 8px;
+  border: solid 1px rgba(133, 131, 131, 0.287);
+
+}
+#sidebaroptionalmenu .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  
+}
+
+#sidebaroptionalmenu .row:first-child{
+  border-bottom: solid 1px rgba(133, 131, 131, 0.287);
+  
+}
+
+#sidebaroptionalmenu h2{
+  font-size: 16px ;
+  margin: 0px;
+  
+}
+#sidebaroptionalmenu svg{
+  color: #292828bb;
+  width: 20px;
+  height: 20px;
+  
+}
+.about{
+
+  margin: 0%;
+  background-color: white;
+  width: 100%;
+  border-radius: 8px;
+  border: solid 1px rgba(133, 131, 131, 0.287);
+}
+
+
+.sidebar{
+  padding: 5px 15px 5px 15px;
+  margin: 0%;
+  background-color: white;
+  width: 100%;
+  border-radius: 8px;
+  border: solid 1px rgba(133, 131, 131, 0.287);
+
+}
+.dashboard{
+ 
+  margin: 0%;
+  background-color: rgb(202, 205, 212);
+  width: 100%;
+  border-radius: 8px;
+  border: solid 1px rgba(133, 131, 131, 0.287);
+}
+.dashboard-text:hover{
+ text-decoration: underline;
+}
+.experience{
+  margin: 0%;
+  background-color: white;
+  width: 100%;
+  border-radius: 8px;
+  border: solid 1px rgba(133, 131, 131, 0.287);
+}
+.interest{
+  margin: 0%;
+  background-color: white;
+  width: 100%;
+  border-radius: 8px;
+  border: solid 1px rgba(133, 131, 131, 0.287);
+}
+.message{
+  position: sticky;
+  bottom: 0px;
+  float: right;
+}
+#messaging{
+
+  background-color: white;
+  border-radius: 8px;
+  border: solid 1px rgba(133, 131, 131, 0.287);
+  width:350px;
+
+}
+#hr{
+  border-right: 1px solid grey;
+ 
+}
+.connect:hover{
+  background-color: rgb(241, 239, 239) !important;
+  color: black !important;
+    
+}
+.text:hover{
+  background-color:rgb(241, 239, 239) ;
+}
+.recent:hover{
+text-decoration: underline;
+}
+
+  
+.left-side-wrap {
+  padding:0px;
+  margin: 0%;
+  background-color: white;
+  
+  border-radius: 8px;
+  border: solid 1px rgba(133, 131, 131, 0.287);
+}
+
+.side-image {
+  position : absolute;
+      overflow : hidden;
+      border-radius: 50%;
+      width    : 80px;
+      height   : 80px;
+      top      : 40%;
+      left     : 32%;
+}
+
+.image-wrap {
+  background-image: url("https://images.freeimages.com/images/large-previews/01a/technology-background-1632715.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  height: 70px;
+  margin-left: -16px;
+  margin-right: -16px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.right-sidebar{
+  background-color: white;
+  border-radius: 8px;
+  border: solid 1px rgba(133, 131, 131, 0.287);
+}
+.news{
+  width: 36px;
+  height: 36px;
+  margin-right: 6px;
+}
+.business{
+  margin-left: -24px !important;
+}
+.logo{
+  margin-left: -18px!important;
+}
+.loginBox{
+   height: 60%;
+   width: 50%;
+   background-color: white;
+}
